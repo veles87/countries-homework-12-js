@@ -38,7 +38,7 @@ const handlerInput = (e) => {
         if (country.status === 404) {
             clearContent ()
             error({
-                text: "404 Not found"})
+                text: "ФИГНЯ! ПОРПЫТАЙ УДАЧУ СНОВА!"})
         }
         
   })
@@ -46,7 +46,7 @@ const handlerInput = (e) => {
         clearContent ()
         defaultModules.set(PNotifyMobile, {});
         error({
-        text: '404 Not found'
+        text: 'ФИГНЯ! ПОРПЫТАЙ УДАЧУ СНОВА!'
     });})
 }
 
