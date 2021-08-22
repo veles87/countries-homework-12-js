@@ -42,7 +42,7 @@ const handlerInput = (e) => {
         }
         
   })
-    .catch(err => {
+    .catch(arr => {
         clearContent ()
         defaultModules.set(PNotifyMobile, {});
         error({
