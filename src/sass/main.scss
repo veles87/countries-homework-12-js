@@ -4,4 +4,76 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+//@import './example';
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/world-map-with-countries-and-capitals-dd940368-scaled.jpeg);
+}
+
+;
+
+form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+;
+
+.search-country {
+  text-align: center;
+}
+
+;
+
+.country-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+;
+
+.country-name {
+  //display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 35px;
+}
+
+;
+
+.country-flag {
+  margin-left: 50px;
+}
+
+;
+
+.country-info {
+  text-align: left;
+}
+
+;
+
+ul {
+  padding-left: 0px;
+}
+
+;
+
+li {
+  align-items: center;
+  margin-top: 10px;
+}
+
+;
+
+#input:invalid {
+  color: red;
+  border: 3px solid red;
+}
